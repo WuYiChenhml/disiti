@@ -3,7 +3,7 @@ function = Person(name，age){
    this.name = "Tom";//姓名属性
    this.age = 21;//年龄属性
   
-      console.log('My name is ' + this.name + '. I am ' + this.age + ' years old.')；}
+      console.log('My name is ' + this.name + '. I am ' + this.age + ' years old.')；
 }
 
 

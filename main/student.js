@@ -6,7 +6,7 @@ function = Student(name，age，Class) {
      this.age = 21;
      this.class = 2;
      
-     return = 'My name is ' + this.name + '. I am ' +  this.age + 'years old. I am a Student. I am at Class ' + this.class + ' .';
+     this.introduce = 'My name is ' + this.name + '. I am ' +  this.age + 'years old. I am a Student. I am at Class ' + this.class + ' .';
     
    
 }

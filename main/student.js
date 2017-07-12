@@ -2,15 +2,13 @@ let Person = require('./person')
 // Write your code here
 
 function = Student(name，age，class) {
-     this.method = Person; 
-     this.method(name，age);
-     delete this.method; 
+     this.name = 'Tom';
+     this.age = 21;
      this.class = 2;
-     this.introduce = function () {
-         console.log('My name is Tom. I am 21 years old. I am a Student. I am at Class 2.');
-     }
+     
+     console.log('My name is ' + this.name + '. I am ' +  this.age + 'years old. I am a Student. I am at Class ' + this.class + ' .');
     
+   
 }
     
-Person.introduce(); 
 module.exports = Student

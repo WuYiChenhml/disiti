@@ -5,6 +5,6 @@ function Person(name，age){
    this.Introduce: function (){
       console.log('My name is Tom. I am 21 years old.')；}
 }
-var p = new Person();
+
 Person.Introduce();  
 module.exports = Person；

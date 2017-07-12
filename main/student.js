@@ -12,6 +12,6 @@ function Student(name，age，class) {
     
 }
     
-  var Student = new Student("Tom", 21, 2); 
+  var Student = new Student(); 
 Person.Introduce(); 
 module.exports = Student

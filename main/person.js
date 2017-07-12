@@ -1,5 +1,5 @@
 // Write your code here
-function Person(name，age){
+function = Person(name，age){
    this.name = "Tom";//姓名属性
    this.age = 21;//年龄属性
    this.Introduce: function (){

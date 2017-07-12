@@ -7,4 +7,4 @@ function = Person(name，age){
 }
 
 
-module.exports = Person；
+module.exports = Person

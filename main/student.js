@@ -6,7 +6,7 @@ Student.name = "Tom";
 Student.age = 21;
 Student.class = 2;
 
-Student.say = function() {
+Student.Introduce = function() {
 	console.log('My name is Tom. I am 21 years old. I am a Student. I am at Class 2.');
 }
 

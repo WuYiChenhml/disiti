@@ -4,6 +4,7 @@ function = Person(name，age){
    this.age = 21;//年龄属性
   
  this. introduce = 'My name is ' + this.name + '. I am ' + this.age + ' years old.';
+   return = this.introduce;
 }
 
 

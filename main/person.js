@@ -1,12 +1,10 @@
 // Write your code here
-module.exports = var Person = 
- {
-    name: "Tom",
-    age: 21,
-    Introduce: function () 
-  { 
-    alert("My name is " + this.name + ".I'm " + this.age + " years old.");
-  }
-    
+Person = function () {
+	this.name = "Tom";    //通过this关键字设置默认成员
+    this.age = 31;
+    this.Introduce = function () {
+         console.log("My name is " + this.name + ".I'm " + this.age + " years old.");
+   };
 };
- person.Introduce();  
+
+module.exports = var Person；

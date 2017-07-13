@@ -1,4 +1,4 @@
-let Person = require('./person')
+
 // Write your code here
 
 function Student(name,age,class) {

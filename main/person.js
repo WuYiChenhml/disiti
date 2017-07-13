@@ -2,9 +2,8 @@
 var Person = function(){
  this.name = 'Tom';
  this.age = 21;
-   this.inteoduce = function(){
-    console.log('My name is ' + this.name + '. I am ' + this.age + 'years old.');  
-   }
+   this.introduce = 'My name is ' + this.name + '. I am ' + this.age + 'years old.';  
+return this.introduce;
 }
-person.introduce;
+var person = new Person();
 module.exports = Person

@@ -8,7 +8,7 @@ function Student(name，age，Class) {
      
      this.introduce = function(){
           console.log( 'My name is ' + this.name + '. I am ' +  this.age + 'years old. I am a Student. I am at Class ' + this.class + ' .');}
-    return = this.introduce;
+    return this.introduce;
    
 }
     

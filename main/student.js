@@ -2,9 +2,8 @@ let Person = require('./person')
 // Write your code here
 
 function Student(name，age，Class) {
-      this.method = Person; 
-      this.method(name，age);
-      delete this.method; 
+      this.name = name; 
+      this.age = age;
       this.class = Class;
      
      this.introduce = 'My name is ' + this.name + '. I am ' +  this.age + 'years old. I am a Student. I am at Class ' + this.class + ' .';

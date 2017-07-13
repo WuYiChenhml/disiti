@@ -6,5 +6,5 @@
                 alert('My name is ' + this.name + '. I am ' + this.age + ' years old.');
             };
         };
- person.Introduce();
+
 module.exports = Person

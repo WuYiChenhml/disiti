@@ -12,6 +12,6 @@ var Student = function Student() {
     return this.introduce;
    
 }
-var Student = new Student();
+
     
 module.exports = Student

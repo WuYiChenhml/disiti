@@ -5,7 +5,7 @@ function Person(name，age){
   
  this. introduce = functon(){
     console.log('My name is ' + this.name + '. I am ' + this.age + ' years old.');}
-   return = this.introduce;
+   return this.introduce;
 }
 
 

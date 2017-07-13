@@ -1,7 +1,7 @@
 let Person = require('./person')
 // Write your code here
 
-function Student(name，age，Class) {
+var Student = function Student(name，age，Class) {
       this.name = name; 
       this.age = age;
       this.class = Class;
@@ -10,5 +10,6 @@ function Student(name，age，Class) {
     return this.introduce;
    
 }
+var Student = new Student();
     
 module.exports = Student

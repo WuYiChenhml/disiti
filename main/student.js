@@ -7,8 +7,7 @@ function Student(name,age,class) {
       this.class = class;
      
      this.introduce = function(){
-           alert('My name is ' + this.name + '. I am ' +  this.age 
-                 + 'years old. I am a Student. I am at Class ' + this.class + ' .');}
+           alert('My name is ' + this.name + '. I am ' + this.age + 'years old. I am a Student. I am at Class ' + this.class + ' .');}
    
 }
 

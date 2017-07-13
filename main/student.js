@@ -8,5 +8,5 @@ var Person = function (name, age, class) {
          alert('My name is ' + this.name + '. I am ' + this.age + ' years old. I am a Student. I am at Class ' + this.class + '.');
      };
  };
- person.Introduce();
+
 module.exports = Student

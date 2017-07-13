@@ -6,5 +6,5 @@ var Person = function(){
     alert('My name is ' + this.name + '. I am ' + this.age + 'years old.');  }
 return this.introduce;
 }
-var person = new Person();
+
 module.exports = Person
